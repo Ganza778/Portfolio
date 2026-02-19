@@ -13,7 +13,11 @@
 
     <header>
         <nav>
-            <h1 class="logo">Ganza</h1>
+            <a href="#hero" class="logo">
+                <img src="assets/images/nga2.png" alt="Ganza logo">
+                <span>Ganza</span>
+            </a>
+
 
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -37,7 +41,7 @@
 
                 <div class="hero-profile">
                     <img src="assets/images/nga1.jpeg" alt="Profile picture">
-                    <h1>Ganza</h1>
+                    <h1>NIYO GANZA Aristide</h1>
                 </div>
 
                 <div class="hero-content">
@@ -165,11 +169,11 @@
             <h2>Contact Me</h2>
 
             <ul class="contact-info">
-                <li>Email: ganza@email.com</li>
+                <li>Email: gnaristide@email.com</li>
                 <li>Phone: +250 2790 380 491</li>
                 <li>
                     GitHub:
-                    <a href="https://github.com/Ganza778" target="_blank">github.com/ganza</a>
+                    <a href="https://www.linkedin.com/in/niyo-ganza-aristide-657900333" target="_blank">linkedIn</a>
                 </li>
             </ul>
 
