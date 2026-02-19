@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganza | Frontend Developer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1 class="logo">Ganza</h1>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#calculator">Calculator</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="menu-toggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <div class="hero-container">
+
+                <div class="hero-profile">
+                    <img src="assets/images/nga1.jpeg" alt="Profile picture">
+                    <h1>Ganza</h1>
+                </div>
+
+                <div class="hero-content">
+                    <h2>Frontend Developer</h2>
+                    <p>
+                        Passionate about building responsive, accessible, and user-friendly
+                        web applications using modern frontend technologies.
+                    </p>
+                    <a href="#projects" class="btn">View My Work</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a student at Institut d’Enseignement Supérieur de Ruhengeri (INES),
+                pursuing a program in Information Technology.
+            </p>
+
+            <p>
+                My goal is to become a professional frontend developer capable of
+                building reliable and scalable web applications.
+            </p>
+            <h3>Core Skills</h3>
+            <ul class="about-skills">
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+                <li>UI Development</li>
+                <li>Version Control</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <div class="skills-container">
+                <article class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Semantic and accessible markup</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Flexbox, box model, responsive layouts</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation and logic</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and collaboration</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="projects-container">
+
+                <article class="project-card">
+                    <img src="assets/images/project4.jpg" alt="Project 1 screenshot">
+                    <h3>Student Management System</h3>
+                    <p>Solves the problem of tracking student records digitally.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="https://github.com/Ganza778" target="_blank">View on GitHub</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/project2.jpg" alt="Project 2 screenshot">
+                    <h3>Responsive Landing Page</h3>
+                    <p>A mobile-first marketing website.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS</p>
+                    <a href="https://github.com/Ganza778" target="_blank">View on GitHub</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/project3.jpg" alt="Project 3 screenshot">
+                    <h3>JavaScript Calculator</h3>
+                    <p>Performs GPA calculation with validation.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="https://github.com/Ganza778" target="_blank">View on GitHub</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="calculator">
+            <h2>Student GPA Calculator</h2>
+
+            <form id="gpa-form">
+                <label>
+                    Course Marks (comma separated)
+                    <input type="text" id="marks" placeholder="e.g. 78, 85, 90">
+                </label>
+
+                <button type="submit">Calculate GPA</button>
+            </form>
+
+            <div id="gpa-result">
+
+            </div>
+        </section>
+
+        <section id="cv">
+            <h2>Curriculum Vitae</h2>
+
+            <a href="assets/cv/resume.pdf" download class="btn">
+                Download CV
+            </a>
+
+            <article class="cv-preview">
+                <h3>Ganza</h3>
+                <p>Frontend Developer</p>
+                <p>Email: gnaristide@gmail.com</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <ul class="contact-info">
+                <li>Email: ganza@email.com</li>
+                <li>Phone: +250 2790 380 491</li>
+                <li>
+                    GitHub:
+                    <a href="https://github.com/Ganza778" target="_blank">github.com/ganza</a>
+                </li>
+            </ul>
+
+            <form id="contact-form">
+                <label>
+                    Name
+                    <input type="text" required>
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" required>
+                </label>
+
+                <label>
+                    Message
+                    <textarea required></textarea>
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Ganza. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
