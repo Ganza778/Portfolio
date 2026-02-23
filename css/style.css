@@ -53,7 +53,7 @@ nav {
   justify-content: space-between;
 }
 
-.nav-links li:hover{
+.nav-links li:hover {
   background-color: #0f172a;
   border-radius: 30px;
   padding-left: 10px;
@@ -212,29 +212,36 @@ nav {
 }
 
 .about-skills li:hover {
-    background-color: #d1d5db;
-    transform: translateY(-2px);
+  background-color: #d1d5db;
+  transform: translateY(-2px);
 }
+
 /* Core Skills responsiveness */
 
 @media (max-width: 768px) {
-    .about-skills {
-        flex-direction: column;
-        gap: 12px;
-    }
+  .about-skills {
+    flex-direction: column;
+    gap: 12px;
+  }
 
-    .about-skills li {
-        margin: 0;
-        width: 100%;
-        text-align: center;
-    }
+  .about-skills li {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
-    .about-skills li {
-        padding: 10px 12px;
-        font-size: 14px;
-    }
+  .about-skills li {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .nav-links li:hover {
+    background-color: #0f172a;
+    border-radius: 30px;
+    padding: 4px;
+  }
 }
 
 
@@ -264,8 +271,8 @@ nav {
 }
 
 .skill-card:hover {
-    background-color: #e0e0e0;
-    transform: translateY(-5px);
+  background-color: #e0e0e0;
+  transform: translateY(-5px);
 }
 
 /*PROJECTS*/
